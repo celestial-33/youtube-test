@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+  </head>
+  <body>
+    <div class="header">
+
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+
+      <div class="middle-section">
+        <input type="textbox" placeholder="Search" class="search-bar">
+        <button class="search-btn">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-btn">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">
+            3
+          </div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="current-user-pic" src="Profile-Pics/pfp1.jpg">
+      </div>
+
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </div>
+
+
+    <div class="video-grid">
+      
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22030s">
+            <img class="thumbnail" src="Thumbnails/thumbnail-1.webp">
+            <div class="video-time-stamp">6:31:24</div>
+          </a>
+        </div>     
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <a class="channel-link" href="https://www.youtube.com/@SuperSimpleDev">
+              <img src="Profile-Pics/pfp1.jpg" class="profile-pic">
+            </a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a class="video-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22030s">
+                HTML & CSS Full Course - Beginner to Pro
+              </a>
+            </p>
+            <p class="video-author">
+              <a class="channel-link" href="https://www.youtube.com/@SuperSimpleDev">
+                SuperSimpleDev
+              </a> 
+            </p>
+            <p class="video-stats">
+              12M views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=r7lZ9qEAGXU">
+            <img class="thumbnail" src="Thumbnails/thumbnail-2.webp">
+            <div class="video-time-stamp">0:50</div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <a class="channel-link" href="https://www.youtube.com/@NaughtyyJuan">
+              <img src="Profile-Pics/pfp2.jpg" class="profile-pic">
+            </a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a class="video-link" href="https://www.youtube.com/watch?v=r7lZ9qEAGXU">
+                𝐑𝐄𝐃𝐑𝐔𝐌 | Blender Edit
+              </a>
+            </p>
+            <p class="video-author">
+              <a class="channel-link" href="https://www.youtube.com/@NaughtyyJuan">
+                Naughty Juan
+              </a>
+            </p>
+            <p class="video-stats">
+              210K views &#183; 9 months ago
+            </p>
+          </div>
+  
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=1UyQaR8pvjk">
+            <img class="thumbnail" src="Thumbnails/thumbnail-3.webp">
+            <div class="video-time-stamp">27:13</div>
+          </a>
+        </div>     
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <a class="channel-link" href="https://www.youtube.com/@dev_ression">
+              <img src="Profile-Pics/pfp3.jpg" class="profile-pic">
+            </a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a class="video-link" href="https://www.youtube.com/watch?v=1UyQaR8pvjk">
+                12 VS Code Extensions to INCREASE Productivity 2024
+              </a>
+            </p>
+            <p class="video-author">
+              <a class="channel-link" href="https://www.youtube.com/@dev_ression">
+                Devression
+              </a>
+            </p>
+            <p class="video-stats">
+              792K views &#183; 9 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www/youtube.com/watch?v=uU2ksgXc11U">
+            <img class="thumbnail" src="Thumbnails/thumbnail-4.webp">
+            <div class="video-time-stamp">9:00</div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <a class="channel-link" href="https://www.youtube.com/@optimumtech">
+              <img src="Profile-Pics/pfp4.jpg" class="profile-pic">
+            </a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a class="video-link" href="https://www.youtube.com/watch?v=uU2ksgXc11U">
+                Apple has my attention - M4 Mac Mini
+              </a>
+            </p>
+            <p class="video-author">
+              <a class="channel-link" href="https://www.youtube.com/@optimumtech">
+                optimum
+              </a>
+            </p>
+            <p class="video-stats">
+              94K views &#183; 5 hours ago
+            </p>
+          </div>
+  
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=wsTv9y931o8">
+            <img class="thumbnail" src="Thumbnails/thumbnail-5.webp">
+            <div class="video-time-stamp">20:36</div>
+          </a>
+        </div>     
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <a class="channel-link" href="https://www.youtube.com/@coding2go">
+              <img src="Profile-Pics/pfp5.jpg" class="profile-pic">
+            </a> 
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a class="video-link" href="https://www.youtube.com/watch?v=wsTv9y931o8">
+                Learn CSS Flexbox in 20 Minutes (Course)
+              </a>
+            </p>
+            <p class="video-author">
+              <a class="channel-link" href="https://www.youtube.com/@coding2go">
+                Coding2GO
+              </a>
+            </p>
+            <p class="video-stats">
+              293K views &#183; 3 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=OjEg0IBR_ak">
+            <img class="thumbnail" src="Thumbnails/thumbnail-6.webp">
+            <div class="video-time-stamp">10:56</div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <a class="channel-link" href="https://www.youtube.com/@whosajid">
+              <img src="Profile-Pics/pfp6.jpg" class="profile-pic">
+            </a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a class="video-link" href="https://www.youtube.com/watch?v=OjEg0IBR_ak">
+                The Easiest Way to Build Websites
+              </a>
+            </p>
+            <p class="video-author">
+              <a class="channel-link" href="https://www.youtube.com/@whosajid">
+                Sajid
+              </a>
+            </p>
+            <p class="video-stats">
+              613K views &#183; 7 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=nAjR0Oj0J8E">
+            <img class="thumbnail" src="Thumbnails/thumbnail-7.webp">
+            <div class="video-time-stamp">12:17</div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <a class="channel-link" href="https://www.youtube.com/@codingwithrobby">
+              <img src="Profile-Pics/pfp7.jpg" class="profile-pic">
+            </a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a class="video-link" href="https://www.youtube.com/watch?v=nAjR0Oj0J8E">
+                Creating an infinitelogo carousel with pure CSS
+              </a>
+            </p>
+            <p class="video-author">
+              <a class="channel-link" href="https://www.youtube.com/@codingwithrobby">
+                Coding with Robby
+              </a>
+            </p>
+            <p class="video-stats">
+              151K views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=-X_d2AVXVkQ">
+            <img class="thumbnail" src="Thumbnails/thumbnail-8.webp">
+            <div class="video-time-stamp">17:20</div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <a class="channel-link" href="https://www.youtube.com/@TechWithTim">
+              <img src="Profile-Pics/pfp8.jpg" class="profile-pic">
+            </a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a class="video-link" href="https://www.youtube.com/watch?v=-X_d2AVXVkQ">
+                Build a Python AI Image Generator in 15 Minutes (Free & Local)
+              </a>
+            </p>
+            <p class="video-author">
+              <a class="channel-link" href="https://www.youtube.com/@TechWithTim">
+                Tech With Tim
+              </a>
+            </p>
+            <p class="video-stats">
+              15K views &#183; 5 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=CjVGp5kGHxA">
+            <img class="thumbnail" src="Thumbnails/thumbnail-9.webp">
+            <div class="video-time-stamp">4:23:06</div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <a class="channel-link" href="https://www.youtube.com/@codewithsadee">
+              <img src="Profile-Pics/pfp9.jpg" class="profile-pic">
+            </a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a class="video-link" href="https://www.youtube.com/watch?v=CjVGp5kGHxA">
+                How to Make a Restaurant Website Using HTML CSS JavaScript
+              </a>
+            </p>
+            <p class="video-author">
+              <a class="channel-link" href="https://www.youtube.com/@codewithsadee">
+                codewithsadee
+              </a>
+            </p>
+            <p class="video-stats">
+              345K views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=P8accXNcwjs">
+            <img class="thumbnail" src="Thumbnails/thumbnail-10.webp">
+            <div class="video-time-stamp">15:37</div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <a class="channel-link" href="https://www.youtube.com/@TheLinuxEXP">
+              <img src="Profile-Pics/pfp10.jpg" class="profile-pic">
+            </a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a class="video-link" href="https://www.youtube.com/watch?v=P8accXNcwjs">
+                OPEN SOURCE alternatives to the MOST POPULAR productivity apps!
+              </a>
+            </p>
+            <p class="video-author">
+              <a class="channel-link" href="https://www.youtube.com/@TheLinuxEXP">
+                The Linux Experiment
+              </a>
+            </p>
+            <p class="video-stats">
+              1.3M views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=XEaoHoH4qf0">
+            <img class="thumbnail" src="Thumbnails/thumbnail-11.webp">
+            <div class="video-time-stamp">17:44</div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <a class="channel-link" href="https://www.youtube.com/@isto_inc">
+              <img src="Profile-Pics/pfp11.jpg" class="profile-pic">
+            </a>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a class="video-link" href="https://www.youtube.com/watch?v=XEaoHoH4qf0">
+                3 Hours vs. 3 Years of Blender
+              </a>
+            </p>
+            <p class="video-author">
+              <a class="channel-link" href="https://www.youtube.com/@isto_inc">
+                Isto Inc.
+              </a>
+            </p>
+            <p class="video-stats">
+              5.5M views &#183; 9 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=jUHFpfVPUYc">
+            <img class="thumbnail" src="Thumbnails/thumbnail-12.webp">
+            <div class="video-time-stamp">55:35</div>
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <a class="channel-link" href="https://www.youtube.com/@ScammerPayback">
+              <img src="Profile-Pics/pfp12.jpg" class="profile-pic">
+            </a>              
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a class="video-link" href="https://www.youtube.com/watch?v=jUHFpfVPUYc">
+                The Largest Attack on Scammers
+              </a>
+            </p>
+            <p class="video-author">
+              <a class="channel-link" href="https://www.youtube.com/@ScammerPayback">
+                Scammer Payback
+              </a>
+            </p>
+            <p class="video-stats">
+              11M views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </body>
+</html>
